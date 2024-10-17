@@ -1047,10 +1047,10 @@ h6 {
     align-items: center;
     margin-right: 3rem;
     padding: 1.875rem;
-    -webkit-transform-origin: left;
-    transform-origin: left;
-    -webkit-transform: translateX(70vw) rotate(0) scaleX(1.4) scaleY(1);
-    transform: translateX(70vw) rotate(0) scaleX(1.4) scaleY(1);
+    /* -webkit-transform-origin: left; */
+    /* transform-origin: left; */
+    /* -webkit-transform: translateX(70vw) rotate(0) scaleX(1.4) scaleY(1); */
+    /* transform: translateX(70vw) rotate(0) scaleX(1.4) scaleY(1); */
 }
 
 .hello-about__header {
@@ -2026,8 +2026,9 @@ h6 {
         margin-bottom: 1.25rem;
     }
     .about__text {
-        font-size: -0.875rem;
-        padding-inline: 4rem;
+        font-size: 1.2rem;
+        /* margin-top: -3rem; */
+        padding-inline: 7rem;
     }
     .hello-about__header {
         margin-bottom: 0.625rem;
@@ -2240,10 +2241,7 @@ h6 {
         -webkit-animation: hello-2 0.45s ease-out 0.2s forwards;
         animation: hello-2 0.45s ease-out 0.2s forwards;
     }
-    .hello-about__body {
-        opacity: 0;
-        visibility: hidden;
-    }
+    
     .how__title {
         justify-content: center;
     }
