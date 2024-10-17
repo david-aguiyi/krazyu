@@ -1009,7 +1009,7 @@ h6 {
 }
 
 .about__image img:nth-child(2) {
-    width: 100%;
+    width: 60%;
 }
 
 .about__content {
@@ -2026,7 +2026,8 @@ h6 {
         margin-bottom: 1.25rem;
     }
     .about__text {
-        font-size: 1.125rem;
+        font-size: -0.875rem;
+        padding-inline: 4rem;
     }
     .hello-about__header {
         margin-bottom: 0.625rem;
